@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=1004,user-scalable=no"/>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		.wk{
+			width: 1004px;
+			height: 1745px;
+		}
+		
+		
+		
+		/*头部*/
+		.header{
+			width: 1004px;
+			height: 573px;
+			background-color: #fafafa;
+		}
+		.header .grxx{
+			width: 200px;
+			height: 50px;
+			font-family: MicrosoftYaHei;
+			margin: 0px auto;
+			/*margin-top: 70px;*/
+			font-size: 50px;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #393939;
+		}
+		.header .tx{
+			background-image: url(img/6.jpg);
+			background-position: center center;
+			background-size: contain;
+			margin-left: 399px;
+			margin-top: 150px;
+			width: 206px;
+			height: 206px;
+			border-radius:100px;
+		}
+		
+		.header .xm{
+			width: 255px;
+			height: 49px;
+			font-family: MicrosoftYaHei;
+			margin-top: 70px;
+			/*margin: 0 auto;*/
+			margin-left: 372px;
+			text-align:center;
+			font-size: 30px;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		/*基本信息*/
+		.jbxx1{
+			float: left;
+			width: 1004px;
+			height: 99px;
+			background-color: #f7f7f7;
+			margin-top: 44px;
+		}
+		.jbxx{
+			float: left;
+			width: 1004px;
+			height: 99px;
+			background-color: #f7f7f7;
+			margin-top: 11px !important;
+			
+		}
+		/*手机号*/
+		.shouji{
+			width: 160px;
+			height: 37px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			display: inline;
+			position: absolute;
+			margin-left: 48px;
+			margin-top: 30px;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		.hm{
+			width: 238px;
+			height: 30px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			display: inline;
+			position: absolute;
+			margin-left: 695px;
+			margin-top: 30px;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		/*身份证号*/
+		.shenfen{
+			width: 195px;
+			height: 37px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 48px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		.sfzh{
+			width: 391px;
+			height: 30px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 585px;
+			margin-top: 30px;
+			/*margin-top: 0 !important;*/
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		
+		/*出生日期*/
+		.chusheng{
+			width: 190px;
+			height: 37px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 48px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		.rq{
+			width: 250px;
+			height: 30px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 730px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		
+		/*常住地址*/
+		.changzhu{
+			width: 190px;
+			height: 37px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 48px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		.dz{
+			width: 605px;
+			height: 38px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 595px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		
+		
+		
+		/*有效期*/
+		.youxiao{
+			width: 160px;
+			height: 38px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 48px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		.yx{
+			width: 215px;
+			height: 30px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 725px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		
+		
+		/*培训记录*/
+		.peixun{
+			width: 190px;
+			height: 38px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 48px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		.jl{
+			 width: 50px;
+			height: 4px;
+			font-family: MicrosoftYaHei;
+			font-size: 38px;
+			margin-left: 880px;
+			margin-top: 30px;
+			display: inline;
+			position: absolute;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #565656;
+		}
+		
+		
+		/*退出登录*/
+		.tcdl{
+			float: left;
+			width: 1004px;
+			height: 100px;
+			background-color: #f7f7f7;
+			margin-top: 112px;
+		}
+		.tcdl a{
+			width: 185px;
+			height: 42px;
+			font-family: MicrosoftYaHei-Bold;
+			font-size: 42px;
+			display: inline;
+			position: absolute;
+			margin-left: 416px;
+			margin-top: 31px;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			color: #636363;
+		}
+		
+		/*底部*/
+	    		.dibu0{
+			position: fixed;
+	    	display: flex;
+			justify-content: space-around; 
+			width: 1004px;
+			height: 121px;
+			top: 93%;
+			background-color: #f7f7f7;
+			box-shadow: 0px 0px 21px 0px rgba(44, 44, 44, 0.38);
+	    }
+	    
+	    .dibu0 a{
+	    	float: left;
+	    	position: relative;
+			flex-direction: row;
+			float: left;
+			width: 250px;
+			margin-top: 22px;
+			text-decoration: none;
+			box-sizing: border-box;
+	    }
+	    /*首页*/
+	    .dibu0 a:nth-child(1){
+	    	width: 42px;
+			height: 48px;
+			flex-direction: row;
+			background-size: 100% 100%;
+			display: block;
+			text-align: center;
+			position: absolute;
+			left: 10%;
+			
+	    }
+	    .dibu0 a:nth-child(2){
+	    	width: 90;
+			height: 29px;
+			font-family: MicrosoftYaHei;
+			font-size: 29px;
+			display: block;
+			position: absolute;
+			text-align: center;
+			position: relative;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			margin-top: 69px;
+			color: #767676;
+			flex-direction: row;
+	    }
+	    /*工作履历*/
+	    .dibu0 a:nth-child(3){
+	    	width: 42px;
+			height: 48px;
+			flex-direction: row;
+			background-size: 100% 100%;
+			display: block;
+			text-align: center;
+			position: absolute;
+			left: 35%;
+			
+	    }
+	    .dibu0 a:nth-child(4){
+	    	width: 90;
+			height: 29px;
+			font-family: MicrosoftYaHei;
+			font-size: 29px;
+			display: block;
+			position: absolute;
+			text-align: center;
+			position: relative;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			margin-top: 69px;
+			color: #767676;
+			flex-direction: row;
+	    }
+	    /*用工评价*/
+	    .dibu0 a:nth-child(5){
+	    	width: 42px;
+			height: 48px;
+			flex-direction: row;
+			background-size: 100% 100%;
+			display: block;
+			text-align: center;
+			position: absolute;
+			left: 60%;
+			
+	    }
+	    .dibu0 a:nth-child(6){
+	    	width: 90;
+			height: 29px;
+			font-family: MicrosoftYaHei;
+			font-size: 29px;
+			display: block;
+			position: absolute;
+			text-align: center;
+			position: relative;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			margin-top: 69px;
+			color: #767676;
+			flex-direction: row;
+	    }
+	    
+	    /*个人信息*/
+	    .dibu0 a:nth-child(7){
+	    	width: 42px;
+			height: 48px;
+			flex-direction: row;
+			background-size: 100% 100%;
+			display: block;
+			text-align: center;
+			position: absolute;
+			left: 85%;
+			
+	    }
+	    .dibu0 a:nth-child(8){
+	    	width: 90;
+			height: 29px;
+			font-family: MicrosoftYaHei;
+			font-size: 29px;
+			display: block;
+			position: absolute;
+			text-align: center;
+			position: relative;
+			font-weight: normal;
+			font-stretch: normal;
+			letter-spacing: 0px;
+			margin-top: 69px;
+			color: #b22329;
+			flex-direction: row;
+	    }
+	    
+	
+		</style>
+	
+	
+	</head>
+	<body>
+		<!--外框-->
+		<div class="wk">
+			
+			<!--头部-->
+			<div class="header">
+				<div class="grxx">个人信息</div>
+				<div class="tx"></div>
+				<div class="xm">陌小琳     女</div>
+			</div>
+			
+			
+			
+			<!--基本信息-->
+				<!--手机号-->
+			<div class="jbxx1">
+				<div class="shouji">手机号：</div>
+				<div class="hm">15577731050</div>
+			</div>
+					
+				<!--身份证号-->
+			<div class="jbxx">
+				<div class="shenfen">身份证号：</div>
+				<div class="sfzh">5412395118924180</div>
+			</div>
+			
+				<!--出生日期-->
+			<div class="jbxx">
+				<div class="chusheng">出生日期：</div>
+				<div class="rq">2000-12-10</div>
+			</div>
+			
+				<!--常住地-->
+			<div class="jbxx">
+				<div class="changzhu">常住地址：</div>
+				<div class="dz">广东省广州市白云区</div>
+			</div>
+			
+				<!--有效期-->
+			<div class="jbxx">
+				<div class="youxiao">有效期：</div>
+				<div class="yx">2099-12-27</div>
+			</div>
+			
+				<!--培训记录-->
+			<div class="jbxx">
+				<div class="peixun">培训记录：</div>
+				<div class="jl">---</div>
+			</div>
+				
+				
+			
+			<!--退出登录-->
+			<div class="tcdl">
+				<a href="denglu.html" target="_view">退出登录</a>
+			</div>
+			
+			<!--底部--跳转-->
+			<div class="dibu0">
+				<a href="shouye.html" target="_view"><img src="img/geshouye.png"/></a>
+				<a href="shouye.html" target="_view">首页</a>
+				<a href="gongzuolvli.html" target="_view"><img src="img/lvli.gif"/></a>
+				<a href="gongzuolvli.html" target="_view">工作履历</a>
+				<a href="yonggongpingjia.html" target="_view"><img src="img/pingjia.gif"/></a>
+				<a href="yonggongpingjia.html" target="_view">用工评价</a>
+				<a href="gerenxinxi.html" target="_view"><img src="img/hongwode_03.png"/></a>
+				<a href="gerenxinxi.html" target="_view">我的</a>
+			</div>
+				
+		
+		</div>
+		
+	</body>
+</html>
